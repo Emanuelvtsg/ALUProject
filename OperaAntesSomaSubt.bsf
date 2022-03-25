@@ -1,0 +1,170 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 200 240)
+	(text "OperaAntesSomaSubt" (rect 5 0 137 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 203 24 220)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "AOP[0]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "AOP[0]" (rect 21 27 64 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "AOP[1]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "AOP[1]" (rect 21 43 64 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "AOP[2]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "AOP[2]" (rect 21 59 64 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "AOP[3]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "AOP[3]" (rect 21 75 64 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "AOP[4]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "AOP[4]" (rect 21 91 64 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "BOP[0]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "BOP[0]" (rect 21 107 64 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "BOP[1]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "BOP[1]" (rect 21 123 64 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "BOP[2]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "BOP[2]" (rect 21 139 64 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "BOP[3]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "BOP[3]" (rect 21 155 64 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "BOP[4]" (rect 0 0 43 19)(font "Intel Clear" (font_size 8)))
+		(text "BOP[4]" (rect 21 171 64 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "AOPF[0]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "AOPF[0]" (rect 113 27 163 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 32)(pt 168 32))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "AOPF[1]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "AOPF[1]" (rect 113 43 163 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 48)(pt 168 48))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "AOPF[2]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "AOPF[2]" (rect 113 59 163 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 64)(pt 168 64))
+	)
+	(port
+		(pt 184 80)
+		(output)
+		(text "AOPF[3]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "AOPF[3]" (rect 113 75 163 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 80)(pt 168 80))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "BOPF[0]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "BOPF[0]" (rect 113 91 163 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 96)(pt 168 96))
+	)
+	(port
+		(pt 184 112)
+		(output)
+		(text "BOPF[1]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "BOPF[1]" (rect 113 107 163 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 112)(pt 168 112))
+	)
+	(port
+		(pt 184 128)
+		(output)
+		(text "BOPF[2]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "BOPF[2]" (rect 113 123 163 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 128)(pt 168 128))
+	)
+	(port
+		(pt 184 144)
+		(output)
+		(text "BOPF[3]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
+		(text "BOPF[3]" (rect 113 139 163 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 144)(pt 168 144))
+	)
+	(port
+		(pt 184 160)
+		(output)
+		(text "VerifCarryeC2" (rect 0 0 83 19)(font "Intel Clear" (font_size 8)))
+		(text "VerifCarryeC2" (rect 80 155 163 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 160)(pt 168 160))
+	)
+	(port
+		(pt 184 176)
+		(output)
+		(text "LEDBDS" (rect 0 0 49 19)(font "Intel Clear" (font_size 8)))
+		(text "LEDBDS" (rect 114 171 163 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 184 176)(pt 168 176))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 208))
+	)
+)
